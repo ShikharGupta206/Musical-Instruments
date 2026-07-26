@@ -1,0 +1,69 @@
+.guitar,.piano,.violen,.drum,.flute{
+    position: relative;
+  background-image: url(img/guitar.png);
+  width:500px;
+  height:300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.but{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 225px;
+
+}
+
+ button{
+    padding:10px;
+    width:100px;
+    border-radius:8px;
+    font-size: 18px;
+    background-color: #8B4513;
+    cursor:pointer;
+    border:none;
+    color:white;
+}
+
+button:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.piano{
+    background-image:urL(img/piano.png)
+}
+
+.flute{
+    background-image: url(img/flute.png);
+}
+
+.drum{
+    background-image: url(img/drum.jpg);
+}
+
+.violen{
+    background-image: url(img/violen.png);
+}
+
+.piano button{
+     background-color: #222222;
+     
+}
+
+.drum button{
+      background-color: #DC143C;
+      
+}
+
+.flute button{
+     background-color: #1E90FF;
+}
+
+.violen button{
+      background-color: #A0522D;
+}
