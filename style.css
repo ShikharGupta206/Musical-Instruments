@@ -1,8 +1,8 @@
 .guitar,.piano,.violen,.drum,.flute{
-    position: relative;
+  position: relative;
   background-image: url(img/guitar.png);
-  width:500px;
-  height:300px;
+  width:550px;
+  height: 350px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -67,3 +67,65 @@ button:hover{
 .violen button{
       background-color: #A0522D;
 }
+
+h3{
+    font-size: 30px;
+}
+
+.heading{
+    display:block;
+    margin:10px;
+}
+
+.main{
+    display:flex;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+    padding:20px;
+}
+
+.guitar:hover,.piano:hover,.violen:hover,.drum:hover,.flute:hover{
+    transform:translateY(-14px);
+    cursor:pointer;
+
+}
+
+
+
+.guitar,
+.flute,
+.piano,
+.violen,
+.drum{
+    width: 500px;
+    height: 320px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 15px;
+    box-sizing: border-box;
+
+    border-radius: 12px;
+    overflow: hidden;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    transition: transform .3s;
+}
+
+
+
+
+
+
+
