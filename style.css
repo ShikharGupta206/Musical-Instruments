@@ -1,11 +1,13 @@
 .guitar,.piano,.violen,.drum,.flute{
   position: relative;
   background-image: url(img/guitar.png);
-  width:550px;
+  width:100%;
+  max-width:550px;
   height: 350px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  transition:0.3s;
 
 }
 
@@ -98,30 +100,8 @@ h3{
 
 
 
-.guitar,
-.flute,
-.piano,
-.violen,
-.drum{
-    width: 500px;
-    height: 320px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 
-    padding: 15px;
-    box-sizing: border-box;
-
-    border-radius: 12px;
-    overflow: hidden;
-
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    transition: transform .3s;
-}
 
 
 
